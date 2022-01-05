@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 
-body {
-
-}
-
 .container {
     display: flex;
     flex-direction: column;
@@ -92,10 +88,9 @@ h1 {
 .body {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-between;
     background-color: #fff;
-    padding: 90px;
+    padding: 90px 225px;
 }
 
 h2 {
@@ -103,13 +98,14 @@ h2 {
     font-weight: extra-bold;
     color: #1f2937;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .tiles {
     display: flex;
-    padding: 0 250px;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
 }
 
 .tile {
@@ -125,3 +121,68 @@ h2 {
     margin-bottom: 6px;
 }
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color:#E5E7EB;
+    padding: 90px 350px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.signature {
+    text-align: right;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.action-container {
+    display: flex;
+    margin: 90px 250px;
+    padding: 50px 100px;
+    gap: 50px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    align-items: center;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.action-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.action-right {
+    margin-left: auto;
+}
+
+.action-right button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border-color: #f9faf8;
+    border-style: solid;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 16px;
+    width: 150px;
+}
+
+.footer {
+    display: flex;
+    padding: 20px 150px;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content:center;
+    color: #e5e5e5;
+}
